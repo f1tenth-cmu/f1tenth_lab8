@@ -110,18 +110,18 @@ Save this part of the code as 'integrated.py' or 'integrated.cpp'.
 
 ## VII. Deliverables and Submission
 
-Push your finished code onto github repo. Make you name the parts as instructed.
+Zip your finished code onto Canvas. Name the parts as instructed.
 
-Please follow the `submission.md` in the Github repo.
+Please answer the questions in `submission.md`.
 
 ## VIII: Grading Rubric
 
-- Accessing Image: **10** Points
-- Distance Measurement: **15** Points
-- Lane Detection: **20** Points
-- Network Training: **15** Points
-- TensorRT Deployment: **30** Points
-- Integration: **10** Points
+- Accessing Image: **5** Points
+- Distance Measurement: **7** Points
+- Lane Detection: **10** Points
+- Network Training: **8** Points
+- TensorRT Deployment: **10** Points
+- Integration: **5** Points
 
 ## Other References
 1. [tutorial](https://learnopencv.com/how-to-convert-a-model-from-pytorch-to-tensorrt-and-speed-up-inference/)
