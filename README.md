@@ -73,7 +73,7 @@ The next 'TODO' are some hyperparameters: batchsize, learning rate and epoch. La
 
 If you are familiar with network training, you can choose any network architecture you like and train it with our dataset. You can receive great **extra credit** if you train a better object detection NN that is more robust. You need to make sure that it can be successfully deployed with TensorRT 8.5, which is the latest version you can get for Jetson. List your name in the `submission.md` if you did this.
 
-### TensorRT Deployment
+### TensorRT Deployment (extra credit)
 
 After you are done with training the network, convert it into a TensorRT engine on the Jetson NX. To do this, first convert the model from PyTorch into ONNX and then to TensorRT. Then write a function that takes in an image, preprocess it, run with the model, post-process and return the results. Refer to the sample [code](https://github.com/NVIDIA/TensorRT/tree/release/8.4/samples) provided by TensorRT for building the engine. Make sure you select the correct branch for your TensorRT version. Some other references are attached at the end. **Notice they may be for a previous version.**
 
@@ -116,11 +116,11 @@ Please answer the questions in `submission.md`.
 
 ## VIII: Grading Rubric
 
-- Accessing Image: **5** Points
-- Distance Measurement: **7** Points
-- Lane Detection: **10** Points
-- Network Training: **8** Points
-- TensorRT Deployment: **10** Points
+- Accessing Image: **7** Points
+- Distance Measurement: **10** Points
+- Lane Detection: **13** Points
+- Network Training: **10** Points
+- TensorRT Deployment (extra credit): **10** Points
 - Integration: **5** Points
 
 ## Other References
