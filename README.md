@@ -100,7 +100,7 @@ If your Jetson doesn't have pycuda, follow [this](https://docs.donkeycar.com/gui
  
 ## VI. Combining the Functions
 
-In the final part, write a complete package that takes image from the camera, run the lane detection and object detection on the image, then use the center point of the botton bounding box edge from object detection to calcuate the distance to the object. Please note that the image resolution should be 960x540 and your detection resolution may be smaller.
+In the final part, write a complete package that takes image from the camera, run the object detection on the image, then use the center point of the botton bounding box edge from object detection to calcuate the distance to the object. Please note that the image resolution should be 960x540 and your detection resolution may be smaller.
 
 Save this part of the code as 'integrated.py' or 'integrated.cpp'.
 
